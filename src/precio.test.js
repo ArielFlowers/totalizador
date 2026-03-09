@@ -39,4 +39,7 @@ describe("Validación de entradas", () => {
     it("debería retornar error si el precio por item es negativo", () => {
       expect(validarEntrada(2, -50, "CA")).toBe("Precio no válido");
     });
+    it("debería retornar error si el estado es inválido", () => {
+      expect(validarEntrada(2, 50, "ZZ")).toBe("Estado no válido");
+    });
 });
