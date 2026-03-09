@@ -27,5 +27,6 @@ export function calcularPrecioFinal(cantidad, precioUnitario, estado) {
 
 export function validarEntrada(cantidad, precioUnitario, estado) {
     if (cantidad <= 0) return "Cantidad no válida";
+    if (precioUnitario <= 0) return "Precio no válido";
     return "Entrada válida";
 }

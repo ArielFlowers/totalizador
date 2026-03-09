@@ -142,9 +142,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "69dd109c584223cc67305aca3c3ce9cbef4187a0",
     "commitName": "feat: validamos entradas",
     "commitTimestamp": 1773076890327,
     "testId": 5
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1773076959476,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1773076972368,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validamos entrada de precio",
+    "commitTimestamp": 1773076995880,
+    "testId": 6
   }
 ]

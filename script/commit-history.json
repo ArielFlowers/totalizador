@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "69dd109c584223cc67305aca3c3ce9cbef4187a0",
     "author": "ArielFlowers",
     "commit": {
       "date": "2026-03-09T17:21:29.000Z",
       "message": "feat: validamos entradas",
-      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+      "url": "https://github.com/ArielFlowers/totalizador/commit/69dd109c584223cc67305aca3c3ce9cbef4187a0"
     },
     "stats": {
       "total": 13,
@@ -110,6 +110,25 @@
     },
     "coverage": 92.86,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArielFlowers",
+    "commit": {
+      "date": "2026-03-09T17:23:14.000Z",
+      "message": "feat: validamos entrada de precio",
+      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 93.75,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
