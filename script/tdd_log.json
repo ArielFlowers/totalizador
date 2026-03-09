@@ -40,9 +40,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "09cc92d2b32157851d45b2892b785610f8097673",
     "commitName": "feat: calcula el subtotal",
     "commitTimestamp": 1773069380959,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: le puse nombre descriptivo al test",
+    "commitTimestamp": 1773069731829,
+    "testId": 1
   }
 ]

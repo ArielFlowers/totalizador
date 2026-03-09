@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "09cc92d2b32157851d45b2892b785610f8097673",
     "author": "ArielFlowers",
     "commit": {
       "date": "2026-03-09T15:16:19.000Z",
       "message": "feat: calcula el subtotal",
-      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+      "url": "https://github.com/ArielFlowers/totalizador/commit/09cc92d2b32157851d45b2892b785610f8097673"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArielFlowers",
+    "commit": {
+      "date": "2026-03-09T15:22:10.000Z",
+      "message": "feat: le puse nombre descriptivo al test",
+      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 5,
+      "deletions": 3,
       "date": "2026-03-09"
     },
     "coverage": 100,
