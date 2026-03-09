@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f149ed76317a65f808b8705e36e0670cb673d97f",
     "author": "ArielFlowers",
     "commit": {
       "date": "2026-03-09T17:41:21.000Z",
       "message": "feat: funcion aplicar descuentos e impuestos por categoria de producto",
-      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+      "url": "https://github.com/ArielFlowers/totalizador/commit/f149ed76317a65f808b8705e36e0670cb673d97f"
     },
     "stats": {
       "total": 23,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArielFlowers",
+    "commit": {
+      "date": "2026-03-09T17:46:20.000Z",
+      "message": "feat: funcion calcular envio de acuerdo al peso volumetrico",
+      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-03-09"
+    },
+    "coverage": 96.3,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

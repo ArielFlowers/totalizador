@@ -1,4 +1,4 @@
-import { calcularSubtotal, aplicarDescuento, aplicarImpuesto,calcularPrecioFinal, validarEntrada, aplicarCategoria } from "./precio.js";
+import { calcularSubtotal, aplicarDescuento, aplicarImpuesto,calcularPrecioFinal, validarEntrada, aplicarCategoria, calcularEnvio } from "./precio.js";
 
 describe("Cálculo del subtotal", () => {
     it("debería calcular correctamente el subtotal", () => {
@@ -51,4 +51,14 @@ describe("Aplicación de categoría", () => {
     it("debería aplicar 2% de descuento adicional si la categoría es Alimentos", () => {
       expect(aplicarCategoria(1200, "Alimentos")).toBe(1176);
     });
+});
+
+describe("Cálculo del costo de envío", () => {
+    it("debería calcular $3.5 si el peso volumétrico es 15", () => {
+      expect(calcularEnvio(15)).toBe(3.5);
+    });
+    it("debería calcular $6 si el peso volumétrico es 50", () => {
+      expect(calcularEnvio(50)).toBe(6);
+    });
+
 });

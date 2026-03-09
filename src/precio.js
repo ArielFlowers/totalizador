@@ -46,3 +46,9 @@ export function aplicarCategoria(total, categoria) {
     const totalConDescuento = total * (1 - categoriaSeleccionada.descuento);
     return totalConDescuento * (1 + categoriaSeleccionada.impuesto);
 }
+
+export function calcularEnvio(peso) {
+    if (peso <= 20) return 3.5;
+    if (peso <= 80) return 6;
+    return 9;
+}

@@ -318,9 +318,63 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f149ed76317a65f808b8705e36e0670cb673d97f",
     "commitName": "feat: funcion aplicar descuentos e impuestos por categoria de producto",
     "commitTimestamp": 1773078083042,
     "testId": 9
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1773078126885,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1773078144490,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1773078199099,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1773078243120,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1773078269798,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1773078344428,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcion calcular envio de acuerdo al peso volumetrico",
+    "commitTimestamp": 1773078381179,
+    "testId": 10
   }
 ]
