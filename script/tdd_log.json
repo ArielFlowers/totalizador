@@ -46,9 +46,23 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c62816a9c4cea2ce390d720a0b0d3a9bf1ef4eaf",
     "commitName": "feat: le puse nombre descriptivo al test",
     "commitTimestamp": 1773069731829,
     "testId": 1
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1773070213705,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcion de descuentos agregada",
+    "commitTimestamp": 1773070255733,
+    "testId": 2
   }
 ]
