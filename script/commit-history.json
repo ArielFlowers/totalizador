@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8fef11f03279de74fde4a8e9c6097352ad949e2c",
     "author": "ArielFlowers",
     "commit": {
       "date": "2026-03-09T17:48:45.000Z",
       "message": "feat: funcion calcular envio de acuerdo al peso volumetrico terminado",
-      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+      "url": "https://github.com/ArielFlowers/totalizador/commit/8fef11f03279de74fde4a8e9c6097352ad949e2c"
     },
     "stats": {
       "total": 4,
@@ -223,6 +223,25 @@
       "date": "2026-03-09"
     },
     "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArielFlowers",
+    "commit": {
+      "date": "2026-03-09T17:50:17.000Z",
+      "message": "feat: calcular envio  por peso volumetrico corregido",
+      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 88.57,
     "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"

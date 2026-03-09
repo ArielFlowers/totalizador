@@ -386,9 +386,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8fef11f03279de74fde4a8e9c6097352ad949e2c",
     "commitName": "feat: funcion calcular envio de acuerdo al peso volumetrico terminado",
     "commitTimestamp": 1773078526359,
     "testId": 11
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1773078559156,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1773078577919,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular envio  por peso volumetrico corregido",
+    "commitTimestamp": 1773078618846,
+    "testId": 12
   }
 ]
