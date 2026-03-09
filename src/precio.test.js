@@ -60,5 +60,7 @@ describe("Cálculo del costo de envío", () => {
     it("debería calcular $6 si el peso volumétrico es 50", () => {
       expect(calcularEnvio(50)).toBe(6);
     });
-
+    it("debería calcular $9 si el peso volumétrico es mayor a 200", () => {
+      expect(calcularEnvio(250)).toBe(9);
+    });
 });
