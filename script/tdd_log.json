@@ -60,9 +60,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f4be1f41878527a4b256076ad8e9b67ef8651957",
     "commitName": "feat: funcion de descuentos agregada",
     "commitTimestamp": 1773070255733,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 2,
+    "numTotalTests": 6,
+    "timestamp": 1773070320360,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1773070596238,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcion de impuestos aplicada",
+    "commitTimestamp": 1773070637996,
+    "testId": 3
   }
 ]
