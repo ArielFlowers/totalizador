@@ -42,4 +42,7 @@ describe("Validación de entradas", () => {
     it("debería retornar error si el estado es inválido", () => {
       expect(validarEntrada(2, 50, "ZZ")).toBe("Estado no válido");
     });
+    it("debería retornar 'Entrada válida' si todos los valores son correctos", () => {
+      expect(validarEntrada(2, 50, "CA")).toBe("Entrada válida");
+    });
 });

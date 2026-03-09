@@ -186,9 +186,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "975c9a0ed3b0d2a6aa3d74c11431f4c4b3c65f28",
     "commitName": "feat: validamos entrada de estado",
     "commitTimestamp": 1773077099346,
     "testId": 7
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1773077139306,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1773077172472,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validamos todas las entradas",
+    "commitTimestamp": 1773077194541,
+    "testId": 8
   }
 ]
