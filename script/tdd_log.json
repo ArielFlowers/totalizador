@@ -82,9 +82,39 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2c9dc4a8f47b53ba77fbcccf9d0a7b204d4bd04b",
     "commitName": "feat: funcion de impuestos aplicada",
     "commitTimestamp": 1773070637996,
     "testId": 3
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1773071696467,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1773071723924,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1773071741521,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcion precio final aplicada con descuentos e impuestos",
+    "commitTimestamp": 1773071773620,
+    "testId": 4
   }
 ]

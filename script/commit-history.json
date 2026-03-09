@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2c9dc4a8f47b53ba77fbcccf9d0a7b204d4bd04b",
     "author": "ArielFlowers",
     "commit": {
       "date": "2026-03-09T15:37:16.000Z",
       "message": "feat: funcion de impuestos aplicada",
-      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+      "url": "https://github.com/ArielFlowers/totalizador/commit/2c9dc4a8f47b53ba77fbcccf9d0a7b204d4bd04b"
     },
     "stats": {
       "total": 17,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArielFlowers",
+    "commit": {
+      "date": "2026-03-09T15:56:12.000Z",
+      "message": "feat: funcion precio final aplicada con descuentos e impuestos",
+      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
