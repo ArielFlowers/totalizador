@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "483152d05cb4c370f2c2f0909f3ce4474a70c87e",
     "author": "ArielFlowers",
     "commit": {
       "date": "2026-03-09T19:32:46.000Z",
       "message": "feat: decuento por envio aplicado",
-      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+      "url": "https://github.com/ArielFlowers/totalizador/commit/483152d05cb4c370f2c2f0909f3ce4474a70c87e"
     },
     "stats": {
       "total": 23,
@@ -262,6 +262,25 @@
     },
     "coverage": 89.47,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArielFlowers",
+    "commit": {
+      "date": "2026-03-09T20:48:49.000Z",
+      "message": "feat: calculo de precio final completo",
+      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 45,
+      "deletions": 1,
+      "date": "2026-03-09"
+    },
+    "coverage": 92,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -1,4 +1,4 @@
-import { calcularSubtotal, aplicarDescuento, aplicarImpuesto,calcularPrecioFinal, validarEntrada, aplicarCategoria, calcularEnvio,aplicarDescuentoEnvio } from "./precio.js";
+import { calcularSubtotal, aplicarDescuento, aplicarImpuesto,calcularPrecioFinal, validarEntrada, aplicarCategoria, calcularEnvio,aplicarDescuentoEnvio,calcularPrecioFinalCompleto } from "./precio.js";
 
 describe("Cálculo del subtotal", () => {
     it("debería calcular correctamente el subtotal", () => {
@@ -73,4 +73,17 @@ describe("Descuento en envío", () => {
     it("debería aplicar 1% de descuento en el costo de envío para cliente antiguo recurrente", () => {
       expect(aplicarDescuentoEnvio(6, "Antiguo Recurrente")).toBeCloseTo(5.94);
     });
+});
+
+describe("Cálculo del precio final completo", () => {
+  it("debería calcular correctamente todos los componentes del precio", () => {
+    const resultado = calcularPrecioFinalCompleto(
+      2, 500, "CA", "Alimentos", 10, "Recurrente"
+    );
+    expect(resultado.precioNeto).toBe(1000);
+    expect(resultado.descuento).toBeCloseTo(20, 2);
+    expect(resultado.impuestoEstado).toBeCloseTo(80.85, 2);
+    expect(resultado.costoEnvio).toBeCloseTo(0);
+    expect(resultado.precioTotal).toBeCloseTo(1060.85, 2);
+  });
 });

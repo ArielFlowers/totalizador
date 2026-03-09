@@ -438,9 +438,79 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "483152d05cb4c370f2c2f0909f3ce4474a70c87e",
     "commitName": "feat: decuento por envio aplicado",
     "commitTimestamp": 1773084767806,
     "testId": 13
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1773085041994,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1773085151706,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1773085212821,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1773085269906,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1773085521247,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1773085769273,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1773086081281,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1773088694217,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calculo de precio final completo",
+    "commitTimestamp": 1773089330518,
+    "testId": 14
   }
 ]

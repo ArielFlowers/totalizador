@@ -67,3 +67,34 @@ export function aplicarDescuentoEnvio(costoEnvio, tipoCliente) {
     const descuento = descuentosCliente[tipoCliente] || 0;
     return costoEnvio * (1 - descuento);
 }
+
+export function calcularPrecioFinalCompleto(cantidad, precioUnitario, estado, categoria, peso, tipoCliente) {
+    const validacion = validarEntrada(cantidad, precioUnitario, estado);
+    if (validacion !== "Entrada válida") {
+        return { error: validacion };
+    }
+
+    const subtotal = calcularSubtotal(cantidad, precioUnitario);
+
+    const conCategoria = aplicarCategoria(subtotal, categoria);
+
+    const conDescuento = aplicarDescuento(conCategoria);
+
+    const impuestoEstado = aplicarImpuesto(conDescuento, estado) - conDescuento;
+
+    const totalConImpuesto = conDescuento + impuestoEstado;
+
+    const costoEnvio = calcularEnvio(peso)*cantidad;
+
+    const envioFinal = aplicarDescuentoEnvio(costoEnvio, tipoCliente);
+
+    const precioTotal = totalConImpuesto + envioFinal;
+
+    return {
+        precioNeto: subtotal,
+        descuento: subtotal - conDescuento,
+        impuestoEstado: impuestoEstado,
+        costoEnvio: envioFinal,
+        precioTotal: precioTotal
+    };
+}
