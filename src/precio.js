@@ -24,3 +24,8 @@ export function calcularPrecioFinal(cantidad, precioUnitario, estado) {
     const conDescuento = aplicarDescuento(subtotal);
     return aplicarImpuesto(conDescuento, estado);
 }
+
+export function validarEntrada(cantidad, precioUnitario, estado) {
+    if (cantidad <= 0) return "Cantidad no válida";
+    return "Entrada válida";
+}

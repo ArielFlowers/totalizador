@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dd2b1e239412e819c27a4e4503a5bc7608576ca2",
     "author": "ArielFlowers",
     "commit": {
       "date": "2026-03-09T15:56:12.000Z",
       "message": "feat: funcion precio final aplicada con descuentos e impuestos",
-      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+      "url": "https://github.com/ArielFlowers/totalizador/commit/dd2b1e239412e819c27a4e4503a5bc7608576ca2"
     },
     "stats": {
       "total": 14,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArielFlowers",
+    "commit": {
+      "date": "2026-03-09T17:21:29.000Z",
+      "message": "feat: validamos entradas",
+      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-03-09"
+    },
+    "coverage": 92.86,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

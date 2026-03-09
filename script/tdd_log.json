@@ -112,9 +112,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dd2b1e239412e819c27a4e4503a5bc7608576ca2",
     "commitName": "feat: funcion precio final aplicada con descuentos e impuestos",
     "commitTimestamp": 1773071773620,
     "testId": 4
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1773076733195,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1773076799182,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1773076855141,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validamos entradas",
+    "commitTimestamp": 1773076890327,
+    "testId": 5
   }
 ]

@@ -1,4 +1,4 @@
-import { calcularSubtotal, aplicarDescuento, aplicarImpuesto,calcularPrecioFinal } from "./precio.js";
+import { calcularSubtotal, aplicarDescuento, aplicarImpuesto,calcularPrecioFinal, validarEntrada } from "./precio.js";
 
 describe("Cálculo del subtotal", () => {
     it("debería calcular correctamente el subtotal", () => {
@@ -29,5 +29,11 @@ describe("Aplicación de impuestos", () => {
 describe("Cálculo del precio final", () => {
     it("debería calcular correctamente el precio final con descuentos e impuestos", () => {
       expect(calcularPrecioFinal(2, 500, "CA")).toBeCloseTo(1050.025, 2); // Ajustamos el valor esperado
+    });
+});
+
+describe("Validación de entradas", () => {
+    it("debería retornar error si la cantidad es negativa", () => {
+      expect(validarEntrada(-1, 50, "CA")).toBe("Cantidad no válida");
     });
 });
