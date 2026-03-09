@@ -208,9 +208,119 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ec6279fb4cefbec3bfbf1176b68c8d36e6429bc2",
     "commitName": "feat: validamos todas las entradas",
     "commitTimestamp": 1773077194541,
     "testId": 8
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1773077308243,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1773077606519,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1773077625553,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1773077633384,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1773077698537,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1773077712428,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1773077722658,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1773077731666,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1773077767305,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1773077805606,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1773077814109,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1773077896186,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1773077935152,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcion aplicar descuentos e impuestos por categoria de producto",
+    "commitTimestamp": 1773078083042,
+    "testId": 9
   }
 ]

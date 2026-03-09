@@ -1,4 +1,4 @@
-import { calcularSubtotal, aplicarDescuento, aplicarImpuesto,calcularPrecioFinal, validarEntrada } from "./precio.js";
+import { calcularSubtotal, aplicarDescuento, aplicarImpuesto,calcularPrecioFinal, validarEntrada, aplicarCategoria } from "./precio.js";
 
 describe("Cálculo del subtotal", () => {
     it("debería calcular correctamente el subtotal", () => {
@@ -44,5 +44,11 @@ describe("Validación de entradas", () => {
     });
     it("debería retornar 'Entrada válida' si todos los valores son correctos", () => {
       expect(validarEntrada(2, 50, "CA")).toBe("Entrada válida");
+    });
+});
+
+describe("Aplicación de categoría", () => {
+    it("debería aplicar 2% de descuento adicional si la categoría es Alimentos", () => {
+      expect(aplicarCategoria(1200, "Alimentos")).toBe(1176);
     });
 });
