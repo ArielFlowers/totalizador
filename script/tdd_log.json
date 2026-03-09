@@ -408,9 +408,39 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f25b074df7e2e96d4e77f341b1fc9a182a06c3f5",
     "commitName": "feat: calcular envio  por peso volumetrico corregido",
     "commitTimestamp": 1773078618846,
     "testId": 12
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1773084633205,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 2,
+    "numTotalTests": 17,
+    "timestamp": 1773084736555,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1773084744613,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: decuento por envio aplicado",
+    "commitTimestamp": 1773084767806,
+    "testId": 13
   }
 ]

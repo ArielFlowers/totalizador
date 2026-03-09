@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f25b074df7e2e96d4e77f341b1fc9a182a06c3f5",
     "author": "ArielFlowers",
     "commit": {
       "date": "2026-03-09T17:50:17.000Z",
       "message": "feat: calcular envio  por peso volumetrico corregido",
-      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+      "url": "https://github.com/ArielFlowers/totalizador/commit/f25b074df7e2e96d4e77f341b1fc9a182a06c3f5"
     },
     "stats": {
       "total": 4,
@@ -243,6 +243,25 @@
     },
     "coverage": 88.57,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArielFlowers",
+    "commit": {
+      "date": "2026-03-09T19:32:46.000Z",
+      "message": "feat: decuento por envio aplicado",
+      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 22,
+      "deletions": 1,
+      "date": "2026-03-09"
+    },
+    "coverage": 89.47,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }
