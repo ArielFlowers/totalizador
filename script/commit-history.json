@@ -266,18 +266,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "77092427e3d8b9ccee7bc2d28355d655c884e517",
     "author": "ArielFlowers",
     "commit": {
       "date": "2026-03-09T20:48:49.000Z",
       "message": "feat: calculo de precio final completo",
-      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+      "url": "https://github.com/ArielFlowers/totalizador/commit/77092427e3d8b9ccee7bc2d28355d655c884e517"
     },
     "stats": {
       "total": 46,
       "additions": 45,
       "deletions": 1,
       "date": "2026-03-09"
+    },
+    "coverage": 92,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArielFlowers",
+    "commit": {
+      "date": "2026-03-10T06:40:12.000Z",
+      "message": "npm build",
+      "url": "https://github.com/ArielFlowers/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 153,
+      "additions": 124,
+      "deletions": 29,
+      "date": "2026-03-10"
     },
     "coverage": 92,
     "test_count": 18,

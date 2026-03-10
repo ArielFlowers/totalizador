@@ -1,19 +1,78 @@
 <!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Precio</title>
+</head>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
+<body>
+
+<h1>Calculadora de Precio Final</h1>
+
+<div>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" min="1">
+</div>
+
+<div>
+    <label for="precio">Precio por unidad:</label>
+    <input type="number" id="precio" min="0" step="0.01">
+</div>
+
+<div>
+    <label for="estado">Estado:</label>
+    <select id="estado">
+        <option value="">Seleccione un estado</option>
+        <option value="CA">California</option>
+        <option value="TX">Texas</option>
+        <option value="UT">Utah</option>
+        <option value="NV">Nevada</option>
+        <option value="AL">Alabama</option>
+    </select>
+</div>
+
+<div>
+    <label for="categoria">Categoría:</label>
+    <select id="categoria">
+        <option value="">Seleccione una categoría</option>
+        <option value="Alimentos">Alimentos</option>
+        <option value="Bebidas_alcoholicas">Bebidas alcohólicas</option>
+        <option value="Material_de_escritorio">Material de escritorio</option>
+        <option value="Muebles">Muebles</option>
+        <option value="Electronicos">Electrónicos</option>
+        <option value="Vestimenta">Vestimenta</option>
+        <option value="Varios">Varios</option>
+    </select>
+</div>
+
+<div>
+    <label for="peso">Peso del paquete (kg):</label>
+    <input type="number" id="peso" min="0" step="0.01">
+</div>
+
+<div>
+    <label for="tipoCliente">Tipo de Cliente:</label>
+    <select id="tipoCliente">
+        <option value="">Seleccione tipo de cliente</option>
+        <option value="Normal">Normal</option>
+        <option value="Recurrente">Recurrente</option>
+        <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+        <option value="Especial">Especial</option>
+    </select>
+</div>
+
+<br>
+
+<button id="calcular">Calcular Precio Final</button>
+
+<h2>Resultado</h2>
+
+<div>
+    <p id="resultado"></p>
+</div>
+
+<script type="module" src="./src/presenter.js"></script>
+
+</body>
 </html>
